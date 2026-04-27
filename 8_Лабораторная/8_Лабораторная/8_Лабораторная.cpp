@@ -104,8 +104,8 @@ void main()
 	srand((unsigned)time(NULL));
 	setlocale(LC_ALL, "Rus");
 
-	int a1[10], i, m, * ptr;
-	ptr = a1;
+	int a[10], i, m, * ptr;
+	ptr = a;
 	vvod1(&m);
 	vivod1(m, ptr);
 	obrabotka1(ptr);
