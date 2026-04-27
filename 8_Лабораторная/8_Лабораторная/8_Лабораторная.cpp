@@ -40,7 +40,7 @@ void obrabotka1(int* ptr) {
 	vivod11(s);
 }
 
-//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
 
 void vvod2(int* n2, int* m2, int* min, int* max) {
 	printf("Введите минимальное значение: ");
@@ -104,7 +104,10 @@ void main()
 	srand((unsigned)time(NULL));
 	setlocale(LC_ALL, "Rus");
 
-	int a[10], i, m, * ptr;
+	int a[10];
+	int i;
+	int m;
+	int * ptr; // ptr - указатель на массив a, используется для передачи массива в функции
 	ptr = a;
 	vvod1(&m);
 	vivod1(m, ptr);
